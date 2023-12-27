@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+             /* weight= peso width= largura height= altura */ 
+        body { 
+            font-family: 'work sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, Vw, vh, %
+
+            mais recomendado usar px e em 
+            16px geralmente = 1em
+            */
+            font-size: 1em ;
+           
+        }   /* lighter normal bold bolder; no font-weight */
+
+        h1{
+        
+            /* shorthand font
+
+            font-family: 'Work-Sans',sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            fon-style: italic;
+
+            - font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em 'Work-sans', sans-serif;
+         }
+         h2{
+              font: bold 2em 'work-sans';
+         }
+    </style>
+</head>
+<body>
+    <h1>Tabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore maxime esse eius aspernatur in dolor incidunt voluptatibus, ullam saepe et quaerat dolorem eveniet magnam debitis mollitia exercitationem! Qui, Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, soluta iste cupiditate assumenda repellat maxime provident, eaque voluptatibus, magnam architecto deleniti temporibus totam? Commodi nemo earum, aliquid in vitae ducimus? eaque nostrum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, rerum. Consequuntur dicta iste nulla est dignissimos maiores neque perspiciatis? Dolore maxime labore, illum ducimus numquam fugit vero sit sed itaque.</p>
+    <h2>Subtítulos do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, aliquid repellat laudantium vero ea molestiae blanditiis nulla magnam dolorum nostrum praesentium, dolor atque laboriosam sunt temporibus totam? </p>
+</body>
+</html>
