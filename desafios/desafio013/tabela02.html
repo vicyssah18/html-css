@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -10,6 +11,7 @@
          } 
 
          table { 
+            border-collapse: collapse;
             width: 300px;
          } 
 
@@ -23,21 +25,22 @@
 <body>
     <table>
         <tr>
-            <td>1</td>
-            <td>2</td>
-            <td rowspan="2">3</td>
-            <td>4</td>
-            
+            <td colspan="5">A</td>
+            <td rowspan="3" scope="col">B</td>
         </tr>
         <tr>
-            <td>5</td>
-            <td>6</td>
-            <td>7</td>
+            <td rowspan="3">C</td>
+            <td colspan="2">D</td>
+            <td colspan="2">E</td>
+        </tr>
+        <tr>
+            <td colspan="2">F</td>
         </tr>
         <tr>
             
-            <td colspan="3">8</td>
-            <td>9</td>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
         </tr>
         <tr>
             <td rowspan="2">10</td>
