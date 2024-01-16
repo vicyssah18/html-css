@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap">
+   <style>
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+   </style>
+</head>
+<body>
+    <div class="container">
+        <section class="header">
+          <h2>Nova conta</h2>
+        </section>
+
+        <form action="cadastro.php" method="get" autocomplete="off">
+            <p><label for="inome">Nome:</label>
+                 <input type="text" name="nome" id="inome"></p>
+             <p><label for="isobrenome">Sobrenome: </label>
+                 <input type="text" name="Sobrenome" id="isobrenome"></p>
+             <p><input type="submit" value="Enviar"></p>
+         </form>
+    </div>
+</body>
+</html>
